@@ -1,0 +1,27 @@
+{
+  "name": "basic-frontend",
+  "version": "1.0.0",
+  "description": "Basic frontend project!",
+  "main": "./src/server.ts",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "@types/http-server": "^0.10.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardo-fernandes-marques/basic-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardo-fernandes-marques/basic-frontend/issues"
+  },
+  "homepage": "https://github.com/eduardo-fernandes-marques/basic-frontend#readme"
+}
